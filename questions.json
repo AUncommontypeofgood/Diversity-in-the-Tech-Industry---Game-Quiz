@@ -1,0 +1,70 @@
+[
+  {
+    "name":"questionThree",
+    "questionThree":"Which percentage of men do you think works in the tech industry?",
+    "answerThree": [
+      {
+        "text":"26.7%",
+        "correct":false
+      },
+      {
+        "text":"73.3%",
+        "correct":true
+      },
+      {
+        "text":"27.26%",
+        "correct":false
+      },
+      {
+        "text":"50.55%",
+        "correct":false
+      }
+    ]
+  },
+  {
+    "name":"questionTwo",
+    "questionTwo":"Meta is a well know company owning both FaceBook and Instagram but do you know what the percentage of Black or African Americans are emplayed and Meta?",
+    "answerTwo": [
+      {
+        "text":"26.7%",
+        "correct":false
+      },
+      {
+        "text":"73.3%",
+        "correct":true
+      },
+      {
+        "text":"27.26%",
+        "correct":false
+      },
+      {
+        "text":"50.55%",
+        "correct":false
+      }
+    ]
+  },
+  {
+    "name":"questionOne",
+    "questionOne":"Meta is a well know company owning both FaceBook and Instagram but do you know what the percentage of Black or African Americans are emplayed and Meta?",
+    "answerOne": [
+      {
+        "text":"26.7%",
+        "correct":false
+      },
+      {
+        "text":"73.3%",
+        "correct":true
+      },
+      {
+        "text":"27.26%",
+        "correct":false
+      },
+      {
+        "text":"50.55%",
+        "correct":false
+      }
+    ]
+  } 
+  
+]
+  

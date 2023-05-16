@@ -1,0 +1,48 @@
+"//Sourse for question 1": "https://www.jeffersonfrank.com/insights/diversity-in-tech",
+"//Sourse for question 2": "",
+"//Sourse for question 3": "",
+
+{
+  questionOneFacts: [
+    {
+      id: '1',
+      fact: 'Did you know that Overall, it’s estimated that only 22% of workers in tech are ethnic minorities.',
+    },
+    {
+      id: '2',
+      fact: 'Did you know that, 50% of women are likely to drop out of tech roles by the time they reach the age of 35',
+    },
+    {
+      id:'3'
+      fact: 'Did you know that, According to IDG, just 26% of jobs in computer-related sectors are occupied by women and only 27.1% of managers and leaders in tech are female.',
+    }
+  ],
+  questionTwoFacts: [
+    {
+      id: '1',
+      fact: 'At the internship career level, women make up 39% of the tech industry workforce.',
+    },
+    {
+      id: '2',
+      fact: 'Women hold 32.8% of entry-level positions in computer science-related jobs.',
+    },
+    {
+      id:'3',
+      fact:'10.9% of those holding CEO or senior leadership roles are women.',
+    },
+  ],
+  questionThreeFacts: [
+    {
+      id: '1',
+      fact: 'did you know that,30% of the tech industry in NewYork is part of the minority  ',
+    },
+    {
+      id: '2',
+      fact: 'did you know that only 20% of women hold jobs in the tech industry',
+    },
+    {
+      id: '3',
+      fact: 'did you know that only 7% of the black comunity is represented in the tech industry',
+    }
+  ]
+};

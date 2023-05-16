@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700;1,800&family=Rubik+Moonrocks&display=swap');
+
+*{
+  padding: 0px;
+  margin: 2.5px;
+  box-sizing: border-box;
+}
+
+:root{
+  --light-yellow-color: #b8c054;
+  --light-color: #fff;
+  --dark-color: #000;
+  --grey-color: #8dc5d3; /* maybe change colors */
+  --transition: all 300ms ease-in-out;
+}
+/* centering */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+body {
+  font-family:'Poppins', sans-serif;
+  min-height: 35vh;
+  color: var(--dark-color);
+  background-color: var(--grey-color);
+}
+
+.wrapper{
+  background-color: var(--light-color);
+  padding: 1.5rem 4rem 3rem 4 rem;
+  width: 900px;
+  height: 750px;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  position: relative;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 10%), 0 1px 3px rgb (0 0 0 / 10%);
+}
+
+.quiz-title{
+  text-align: center;
+  font-size: 2rem;
+  font-family: cursive;
+}
+.quiz-score{
+  text-align: right;
+  font-size: 1.2rem;
+  border: 5px solid var(--grey-color);
+  margin-bottom: 1rem;
+  font-weight: bold;
+  width: 100px; 
+  height: 50px;
+  margin: .5rem auto;
+  color: var(--light-yellow-color);
+}
+.quiz-question{
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+  font-family: cursive;
+}
+
+.quiz-question .category {
+  font-size: .9rem;
+  font-weight: 500;
+  background-color: var(--light-yellow-color);
+  color: var(--light-color);
+  padding: .2rem .4rem;
+  border-radius: .2rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.quiz-options {
+list-style-type: none;
+  margin: 1rem 0;
+}
+
+.button-start{
+  cursor: pointer;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 25px;
+  color: darkgoldenrod;
+}
+
+.new:hover {
+  background:  #DDD;
+}
+
+li:hover {
+	background-color: #DDD;
+}
+
+.quiz-foot{
+  width: 100%;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.button-question{
+  cursor: pointer;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  font-size: 17px;
+  border: 1px solid black;
+  border-radius: 25px;
+  color: darkgoldenrod;
+}
