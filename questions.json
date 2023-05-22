@@ -1,29 +1,25 @@
-"//Sourse for question 1": "",
-"//Sourse for question 2": "https://www.zippia.com/advice/diversity-in-high-tech-statistics/",
-"//Sourse for question 3": "",
-
 [
   {
     "name":"questionThree",
-    "questionThree":"Which percentage of black men do you think works in the tech industry?",
+    "questionThree":"Which percentage of black men do you think works at Twitter?",
     "answerThree": [
       {
-        "text":"26.7%",
+        "text":"2.7%",
         "correct":false
       },
       {
-        "text":"73.3%",
+        "text":"15.1%",
+        "correct":false
+      },
+      {
+        "text":"10%",
+        "correct":false
+      },
+      {
+        "text":"6%",
         "correct":true
-      },
-      {
-        "text":"27.26%",
-        "correct":false
-      },
-      {
-        "text":"50.55%",
-        "correct":false
       }
-    
+    ]
   },
   {
     "name":"questionTwo",
@@ -34,7 +30,7 @@
         "correct":false
       },
       {
-        "text":"83%", 
+        "text":"83.3%", 
         "correct":true
       },
       {
@@ -52,23 +48,66 @@
     "questionOne":"Meta is a well know company owning both FaceBook and Instagram but do you know what the percentage of Black or African Americans are emplayed and Meta?",
     "answerOne": [
       {
-        "text":"26.7%",
-        "correct":false
-      },
-      {
-        "text":"73.3%",
+        "text":"4.9%",
         "correct":true
       },
       {
-        "text":"27.26%",
+        "text":"12.3%",
         "correct":false
       },
       {
-        "text":"50.55%",
+        "text":"16.8%",
+        "correct":false
+      },
+      {
+        "text":"2%",
         "correct":false
       }
     ]
-  } 
-  
+  },
+  {
+    "name":"questionFour",
+    "questionFour":"holder",
+    "answerFour": [
+      {
+        "text":"holder",
+        "correct":false
+      },
+      {
+        "text":"holder",
+        "correct":false
+      },
+      {
+        "text":"holder",
+        "correct":false
+      },
+      {
+        "text":"holder",
+        "correct":true
+      }
+    ]
+  },
+  {
+    "name":"questionFive",
+    "questionFive":"holder",
+    "answerFive": [
+      {
+        "text":"holder",
+        "correct":false
+      },
+      {
+        "text":"holder",
+        "correct":false
+      },
+      {
+        "text":"holder",
+        "correct":false
+      },
+      {
+        "text":"holder",
+        "correct":true
+      }
+    ]
+  }
 ]
   
