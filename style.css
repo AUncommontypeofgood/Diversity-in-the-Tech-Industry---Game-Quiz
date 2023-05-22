@@ -95,7 +95,7 @@ list-style-type: none;
   background:  #DDD;
 }
 
-li:hover {
+.answer:hover {
 	background-color: #DDD;
 }
 
@@ -109,11 +109,29 @@ li:hover {
 }
 
 .button-question{
-  cursor: pointer;
-  padding: 15px 32px;
-  margin: 4px 2px;
-  font-size: 17px;
-  border: 1px solid black;
-  border-radius: 25px;
-  color: darkgoldenrod;
+  font-size: .9rem;
+  font-weight: 500;
+  background-color: var(--light-yellow-color);
+  color: var(--light-color);
+  padding: .2rem .4rem;
+  border-radius: .2rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.boxxyBoxBox{
+  max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+.answer{
+  display: inline-block;
+	margin: 10px;
+	padding: 10px 20px;
+	background-color: #EEE;
+	border-radius: 5px;
+	cursor: pointer;
 }
