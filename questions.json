@@ -67,44 +67,44 @@
   },
   {
     "name":"questionFour",
-    "questionFour":"holder",
+    "questionFour":"What percent of women experience gender discrimination in the tech industry? ",
     "answerFour": [
       {
-        "text":"holder",
-        "correct":false
-      },
-      {
-        "text":"holder",
-        "correct":false
-      },
-      {
-        "text":"holder",
-        "correct":false
-      },
-      {
-        "text":"holder",
+        "text":"57%",
         "correct":true
+      },
+      {
+        "text":"2%",
+        "correct":false
+      },
+      {
+        "text":"70%",
+        "correct":false
+      },
+      {
+        "text":"30%",
+        "correct":false
       }
     ]
   },
   {
     "name":"questionFive",
-    "questionFive":"holder",
+    "questionFive":"What percent of women work in the tech industry ?",
     "answerFive": [
       {
-        "text":"holder",
+        "text":"30%",
         "correct":false
       },
       {
-        "text":"holder",
+        "text":"32%",
         "correct":false
       },
       {
-        "text":"holder",
+        "text":"19%",
         "correct":false
       },
       {
-        "text":"holder",
+        "text":"25%",
         "correct":true
       }
     ]

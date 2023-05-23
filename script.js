@@ -112,19 +112,45 @@ fetch('questions.json')
     console.log("questionFour", questionFour);
 
     questionDivFour.textContent = questionFour.questionFour;
-    for (const answer of questionTwo.answerFour) {
+    for (const answer of questionFour.answerFour) {
       const answerButton = document.createElement('div');
       answerButton.classList.add('answer');
       answerButton.textContent = answer.text
       answerButton.addEventListener('click', () => {
         if (answer.correct) {
-          messageDivTwo.textContent = 'Correct!';
-          messageDivTwo.style.color = 'green';
+          messageDivFour.textContent = 'Correct!';
+          messageDivFour.style.color = 'green';
         } else {
-          messageDivTwo.textContent = 'Incorrect!';
-          messageDivTwo.style.color = 'red';
+          messageDivFour.textContent = 'Incorrect!';
+          messageDivFour.style.color = 'red';
         }
       });
       answerDivFour.appendChild(answerButton);
+    }
+  })
+fetch('questions.json')
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data)
+    const questionFive = data.find((question) => {
+      return question.name === "questionFive";
+    });
+    console.log("questionFive", questionFive);
+
+    questionDivFive.textContent = questionFive.questionFive;
+    for (const answer of questionFive.answerFive) {
+      const answerButton = document.createElement('div');
+      answerButton.classList.add('answer');
+      answerButton.textContent = answer.text
+      answerButton.addEventListener('click', () => {
+        if (answer.correct) {
+          messageDivFive.textContent = 'Correct!';
+          messageDivFive.style.color = 'green';
+        } else {
+          messageDivFive.textContent = 'Incorrect!';
+          messageDivFive.style.color = 'red';
+        }
+      });
+      answerDivFive.appendChild(answerButton);
     }
   })
